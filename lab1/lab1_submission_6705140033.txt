@@ -1,0 +1,19 @@
+===BEGIN LAB1 SUBMISSION===
+student_id: 6705140033
+timestamp: 2026-09-01T06:54:37Z
+hostname: ubuntu
+---[user: getent passwd]---
+(MISSING user noah728)
+---[group: getent group]---
+(MISSING group devs)
+---[user-in-group: id]---
+(cannot id noah728)
+---[file stat: home file mode/owner]---
+(MISSING file report_3747.txt)
+---[sshd effective config]---
+port 2501
+permitrootlogin no
+passwordauthentication no
+---[integrity]---
+sshd_sha256: 164206e067b72cff6c1dde3829f3764a5110c36b158a16b687f605bd3e91c925
+===END LAB1 SUBMISSION===
